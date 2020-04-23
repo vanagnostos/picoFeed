@@ -4,8 +4,8 @@ namespace PicoFeed\Parser;
 
 use DOMDocument;
 use SimpleXMLElement;
-use ZendXml\Exception\RuntimeException;
-use ZendXml\Security;
+use Laminas\Xml\Exception\RuntimeException;
+use Laminas\Xml\Security;
 
 /**
  * XML parser class.
@@ -60,7 +60,7 @@ class XmlParser
      * @param  string      $input
      * @param  DOMDocument $dom
      * @throws XmlEntityException
-     * @return SimpleXMLElement|DomDocument|boolean
+     * @return SimpleXMLElement|DomDocument|bool
      */
     private static function scan($input, $dom = null)
     {

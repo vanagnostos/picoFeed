@@ -16,7 +16,7 @@
         "ext-xml": "*",
         "ext-libxml": "*",
         "ext-SimpleXML": "*",
-        "zendframework/zendxml": "^1.0"
+        "laminas/laminas-xml": "^1.0"
     },
     "require-dev" : {
         "phpdocumentor/reflection-docblock": "2.0.4",
